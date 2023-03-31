@@ -127,7 +127,7 @@ h3 {
   height: 3em;
   width: 3em;
   position: absolute;
-  right: 2em;
+  right: 0em;
   top: 1.5em;
 }
 
@@ -222,6 +222,10 @@ h3 {
   display: none;
 }
 
+.timeline-block > div {
+  padding-right: 3em;
+}
+
 @media (min-width: 48em) {
   .content {
     padding: 2em 3em;
@@ -241,5 +245,9 @@ h3 {
 
   .hide-mobile {
     display: block;
+  }
+
+  .timeline-img {
+    right: 2em;
   }
 }
